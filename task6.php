@@ -177,8 +177,8 @@ echo "$Letters Letters Ignored<br>";
 echo "<h4><br>-----TASK 8-----</h4>";
 $nums = [1, 13, 12, 20, 51, 17, 30];
 foreach($nums as $number){
-    if($number%2==0){
-        echo $number/2 ."<br>";
+    if($number % 2 == 0){
+        echo $number / 2 ."<br>";
     }
     else{
         continue;
@@ -194,11 +194,12 @@ echo "<h4><br>-----TASK 9-----</h4>";
 $help_num = 3;
 $nums = [4, 5, 6, 1, 2, 3];
 $names = ["Ahmed", "Sayed", "Osama", "Mahmoud", "Gamal"];
-for($i=0;$i<$help_num;$i++){
-    if($names[$i]=="Sayed" || $names[$i]=="Osama"){
-        echo $names[$i]."<br>";
+for($i=0;$i<count($names);$i++){
+    if($names[$i]== $names[$nums[$help_num]]){
+        echo $names[$nums[$help_num]]."<br>";
+        echo $names[$nums[$help_num] + $nums[$help_num]]."<br>";
     }
-}
+} //loop until you get to the right order
 /* Output
 "Sayed"
 "Osama"*/
