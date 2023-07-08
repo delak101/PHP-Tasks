@@ -208,7 +208,7 @@ echo "<h4><br>-----TASK 10-----</h4>";
 $help_num = 4;
 $nums = [2, 4, 5, 6, 10];
 foreach($nums as $key => $num){
-    echo $nums[$key] . " + " . $nums[4-$key] . " = " . $nums[$key]+$nums[$key] . "<br>";
+    echo $nums[$key] . " + " . $nums[$help_num-$key] . " = " . $nums[$key]+$nums[$help_num-$key] . "<br>";
 }
 /* Output
 "2 + 10 = 12"
