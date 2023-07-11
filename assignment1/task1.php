@@ -5,9 +5,7 @@ echo 'You Can Find The Tasks  <a href="https://elzero.org/php-bootcamp-assignmen
 يمككني كتابة ما أريده
 */
 //comment
-
-
-echo "<h4>-----TASK 1-----</h4>"; ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,34 +26,3 @@ echo "<h4>-----TASK 1-----</h4>"; ?>
     </div>
   </body>
 </html>
-
-<?php
-echo "<h4>-----TASK 2-----</h4>";
-
-#   echo 'Prevent Me From Running Please';
-//  echo 'Prevent Me From Running Please';
-/*  echo 'Prevent Me From Running Please';  */
-
-echo "<h4>-----TASK 3-----</h4>";
-////////////////////////
-// My Application     //
-// Version 1.0        //
-// Created By Elzero  //
-////////////////////////
-//or
-/*
-===========================
-===   My Application     ==
-===   Version 1.0        ==
-===   Created By Elzero  == 
-===========================
-*/
-
-
-echo "<h4>-----TASK 4-----</h4>";
-
-// ## First Comment           correct way to comment starts with //
-# // # Second Comment         correct way to comment starts with #
-/* /* /* Third Comment */     #correct way to comment starts with /*  and ends with*/
-////// Fourth Comment         correct way to comment starts with //
-?>
