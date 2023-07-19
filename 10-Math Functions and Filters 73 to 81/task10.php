@@ -1,24 +1,5 @@
 <?php
 
-// task 1
-echo rand(11, 19) . "<br>";
-
-// Example
-// 13
-// 14
-// 19
-// 12
-
-// task 2
-
-$friends = ["Osama", "Ahmed", "Sayed", "Ibrahim"];
-
-echo $friends[rand(0, 3)] . "<br>";
-
-// Example
-// Ibrahim
-// Ahmed
-
 // task 3
 
 $num1 = 11.5; // 11
